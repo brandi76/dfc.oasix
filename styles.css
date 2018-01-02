@@ -1,0 +1,225 @@
+/* Mise en forme du body */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/bgGauche.jpg);
+	background-repeat: repeat-x;
+	background-color: #dcdcdc;
+}
+
+#saut { page-break-after : always ;} 
+/* Mise en forme des textes */
+
+.titrefixe {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #e9480b;
+font-weight: bold;
+position:absolute; top:120px;left:400px;
+}
+
+.titre {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #e9480b;
+font-weight: bold;
+}
+
+.erreur {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #cc0000;
+font-weight: bold;
+}
+
+.texte {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #848692;
+}
+
+.paragraphe {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-decoration:underline;
+font-size: 15px;
+color: #5580ab;
+}
+
+.petit {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+.trespetit {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 9px;
+}
+
+.message {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color:#fbd123;
+font-size: 8px;
+color:#004dc4;
+border-style:dashed;
+padding:2px;
+height:auto;
+font-weight: bold;
+position:absolute; top:5px;left:5px;
+width: 230px;
+} 
+
+.session {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color:black;
+position:absolute; top:120px;left:200px;
+} 
+
+
+table th {
+	background: #5580ab;
+}
+table#petit td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+form#petit input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+null {
+     color:#CC0000;
+     background-color:#FFCC00;
+     font-size:10px;
+     font-family:arial;
+}
+.grise input{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:200px;
+	text-align:center;
+	}
+	textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:200px;
+	text-align:center;
+     	background-color:#dcdcdc;
+
+}
+.normal input{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:200px;
+	text-align:center;
+     	background-color:white;
+	}
+	textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:200px;
+	text-align:center;
+     	background-color:#dcdcdc;
+
+}
+.comment textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:600px;
+	text-align:left;
+     	background-color:#dcdcdc;
+}
+
+/* Liens par défault */
+
+a:link {
+	color: #e9480b;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #e9480b;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+/* Liens pour menu1 */
+
+.menu a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #2b2e3b;
+	text-decoration: none;
+}
+
+.menu a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #2b2e3b;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+/* Liens pour menu2 */
+
+.menu2 a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #848692;
+	text-decoration: none;
+}
+
+.menu2 a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #848692;
+	text-decoration: none;
+}
+
+.menu2 a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #2F3646;
+	text-decoration: underline;
+}
+
+/* Liens pour liste */
+
+.liste a{
+	text-decoration: none;
+	color:black;
+}
+
+.liste a:hover {
+	background-color: lavender;
+}
+
+/* Code */
+
+.boiteFormulaire {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #848692;
+	border: 1px solid #c5c7cb;
+	background-color: #eeeeee;
+}

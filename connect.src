@@ -1,0 +1,14 @@
+$dbh = DBI->connect("DBI:mysql:host=195.114.27.208:database=dfc;","web","admin",{'RaiseError' => 1});
+$base_rep="dfc.oasix";
+
+$base_client_code=100;
+$base_client_nom="Duty Free Concept";
+$base_gestionnaire="DFC";
+$base_ville="Dieppe";
+$base_pays="France";
+$base_dev1="XAF";
+$base_dev2="XOF";
+$base_dbh="dfc";
+@bases_client=("dfc","camairco","aircotedivoire","togo","tacv");
+#&save("insert into traceur values (now(),\"$ENV{\"REQUEST_URI\"}\",\"$ENV{\"REMOTE_USER\"}\",\"$ENV{\"REMOTE_ADDR\"}\")");
+
